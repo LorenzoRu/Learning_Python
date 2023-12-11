@@ -1,8 +1,3 @@
-# [Learning/EMLV]-Python
-## [Chap_8]-List
-### Exercise 8 
-
-'''Python
 my_list = []
 while True:
     item = input("items: ")
@@ -11,4 +6,3 @@ while True:
     else:
         break
 print(my_list)
-'''
