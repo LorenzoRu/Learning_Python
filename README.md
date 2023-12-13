@@ -2,7 +2,7 @@
 
 ## [Chap_8]-List
 
-### Exercise 8 
+### Exercise 1
 
 ```Python
 my_list = []
@@ -13,4 +13,19 @@ while True:
     else:
         break
 print(my_list)
+```
+
+## [Chap_9]-List
+
+### Exercise 1
+```Python 
+directory = {}
+while True:
+    name = input("Name ")
+    if name != "stop":
+        phone = input("Phone ")
+        directory[name] = phone
+    else:
+        break
+print(directory)
 ```
