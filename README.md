@@ -15,7 +15,7 @@ while True:
 print(my_list)
 ```
 
-## [Chap_9]-List
+## [Chap_9]-Dictionnary
 
 ### Exercise 1
 ```Python 
