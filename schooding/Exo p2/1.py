@@ -18,7 +18,7 @@ def move_cheker (initial_location, final_location):
    intial_col = field[initial_location[0]]
    diff_row = int(final_location[1]) - intial_row
    diff_col = field[final_location[0]] - intial_col
-   return (diff_row == 2 and diff_col == 1) or (diff_row == 1 and diff_col == 2)
+   return (diff_row == 2 and diff_col == 1) or (diff_row == 1 and diff_col == 2) or (diff_row == -2 and diff_col == -1) or (diff_row == -1 and diff_col == -2) or (diff_row == 2 and diff_col == -1) or (diff_row == 1 and diff_col == -2) or (diff_row == -2 and diff_col == 1) or (diff_row == -1 and diff_col == 2)
 
 print(move_cheker(initial_location, final_location))
 
